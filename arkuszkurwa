@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href= "css/bootstrap.min.css">
+    <title>moja strona WWW</title>
+</head>
+<body>
+    
+    <div class="container text-center">
+        <div class="row g-1">
+            <div class="col-12"><div class="p-1 border bg-secondary">essa</div></div>
+            <div class="col-8 "><div class="p-4 border bg-warning">essa</div></div>
+            <div class="col-4"><div class="p-4 border bg-warning">essa</div></div>
+            <div class="col-2"><div class="p-5 border bg-danger">essa</div></div>
+            <div class="col-8"><div class="p-5 border bg-danger text-wrap" id="akapit5"><sup>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</sup> <sub>Nulla cursus libero nunc, suscipit semper augue condimentum placerat. Maecenas facilisis est in tincidunt dapibus.</sub> <p id="zdanie3">Mauris vulputate suscipit nulla in ultrices. Phasellus et mauris ut enim luctus consectetur.</p> <p id="zdanie4">Sed non ultricies nunc. Vestibulum vel fringilla erat. Proin sed facilisis ligula, in malesuada dolor.</p> <p id="zdanie5">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p> <p id="zdanie6">totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p> <p id="zdanie7">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p> <p id="zdanie8">sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p> <p id="zdanie9">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</p> <p id="zdanie10">consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p> <p id="zdanie11">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p> <p id="zdanie12">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+            <div id="blok"><img src="esa.jpg"></div>
+            <div id="blok"><img src="esa.jpg"></div>
+            <div id="blok"><img src="esa.jpg"></div>
+            <div id="blok" style="clear: both;"><img src="esa.jpg"></div>
+            <div id="blok"><img src="esa.jpg"></div>
+            <div id="blok"><img src="esa.jpg"></div>
+            <div id="blok"><img src="esa.jpg"></div>
+            <div id="blok" style="clear: both;"><img src="esa.jpg"></div>
+            <div id="blok"><img src="esa.jpg"></div>
+            <div id="blok"><img src="esa.jpg"></div>
+            <div id="blok"><img src="esa.jpg"></div>
+            <div id="blok" style="clear: both;"><img src="esa.jpg"></div>
+            <div id="blok"><img src="esa.jpg"></div>
+            <div id="blok"><img src="esa.jpg"></div>
+            <div id="blok"><img src="esa.jpg"></div>
+            <div id="blok" style="clear: both;"><img src="esa.jpg"></div>
+            <div id="blok"><img src="esa.jpg"></div>
+            <div id="blok"><img src="esa.jpg"></div>
+            <div id="blok"><img src="esa.jpg"></div>
+            <div id="blok" style="clear: both;"><img src="esa.jpg"></div>
+            <div id="blok"><img src="esa.jpg"></div>
+            </div></div>
+            <div class="col-2"><div class="p-5 border bg-danger">essa</div></div>
+            <div class="col-3"><div class="p-3 border bg-success">essa</div></div>
+            <div class="col-3"><div class="p-3 border bg-success">essa</div></div>
+            <div class="col-3"><div class="p-3 border bg-success">essa</div></div>
+            <div class="col-3"><div class="p-3 border bg-success">essa</div></div>
+            <div class="col-8"><div class="p-2 border bg-primary">essa</div></div>
+            <div class="col-4"><div class="p-2 border bg-primary">essa</div></div>
+            <div class="col-4"><div class="p-2 border bg-dark text-light">essa</div></div>
+            <div class="col-8"><div class="p-2 border bg-dark text-light">essa</div></div>
+            <div class="col-6"><div class="p-2 border bg-info">essa</div></div>
+            <div class="col-6"><div class="p-2 border bg-info">essa</div></div>
+            <div class="col-12"><div class="p-1 border bg-secondary">essa</div></div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+div{
+    text-align: center;
+    border: 1px solid black;
+    /* background-image: url("essa.jpg"); */
+
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin-right: auto;
+    margin-left: auto;
+}
+#zdanie3{
+    font-variant-caps: small-caps;
+}
+
+#zdanie4{
+    color: yellow;
+    font-weight: 500;
+}
+#zdanie6{
+    font-family: Verdana, Tahoma, Arial;
+}
+#zdanie7{
+    font-size:  xx-large;
+}
+#zdanie8{
+    text-decoration: line-through;
+}
+#zdanie9{
+    text-decoration: underline;
+}
+#zdanie10{
+    text-decoration: line-through;
+}
+#zdanie11{
+    word-spacing: 70px;
+}
+#zdanie12{
+    letter-spacing: 10px;
+}
+#akapit5{
+    padding: 10px;
+    text-align: justify;
+    height: 900px;
+}
+#blok{
+
+    border: 1px solid black;
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+

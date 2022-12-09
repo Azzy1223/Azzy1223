@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="zad.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header1">
+        header
+        <nav id="navbar1">nav</nav>
+    </header>
+    <section id="lewa1">
+        <nav id="navlewa">nav</nav>
+        <aside id="asidelewy">aside</aside>
+    </section>
+    
+    <section id="prawa1">
+        <header id="naglowekprawa1">header</header>
+        <article id="article1">
+            <header id="naglowekprawa2">header</header>
+            <div id="div1">div</div>
+            <aside id="aside1">aside</aside>
+            <p id="p1">P</p>
+        </article>
+        <article id="article2">
+            <header id="header2">header</header>
+            <div id="div2">div</div>
+            <p>P</p>
+            <footer id="footer1">footer</footer>
+        </article>
+
+        <footer id="footer2">footer</footer>
+    </section>
+
+
+
+</body>
+</html>
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+body{
+    text-align: center;
+}
+#header1{
+    width: 1000px;
+    height: 80px;
+    border: 1px solid black;
+}
+#navbar1{
+    width: 950px;
+    height: 50px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+#lewa1{
+    border: 1px solid black;
+    width: 350px;
+    height: 750px;
+    float: left;
+    margin-top: 10px;
+}
+#navlewa{
+    border: 1px solid black;
+    width: 310px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#asidelewy{
+    border: 1px solid black;
+    background-color: darkgray;
+    width: 280px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+#prawa1{
+    border: 1px solid black;
+    width: 650px;
+    height: 750px;
+    float: left;
+    margin-top: 10px;
+}
+#naglowekprawa1{
+    border: 1px solid black;
+    width: 610px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+#article1{
+    border: 1px solid black;
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#naglowekprawa2{
+    border: 1px solid black;
+    width: 580px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: darkgray;
+}
+#div1{
+    border: 1px solid black;
+    width: 320px;
+    height: 30px;
+    margin-left: 14px;
+    margin-top: 10px;
+    float: left;
+    background-color: darkgray;
+}
+#aside1{
+    border: 1px solid black;
+    width: 220px;
+    height: 30px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 37px;
+    background-color: darkgray;
+}
+#p1{
+    border: 1px solid black;
+    margin-top: 50px;
+    width: 580px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkgray;
+}
